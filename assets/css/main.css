@@ -12,3 +12,43 @@
 	padding: 0 10px 0 10px;
 	width: auto;
 }
+.titlesection {
+	color: #000000;
+	background-color: #FFFFFF;
+}
+.titlesection h1 {
+	font-size: 24px;
+}
+.subtitlesection {
+	color: #000000;
+	background-color: #FFFFFF;
+}
+.subtitlesection h1 {
+	font-size: 20px;
+}
+.hero {
+	background-color: #000000;
+	height: 50px;
+}
+.hero * h1 {
+	color: #FFFFFF;
+	line-height: 50px;
+	font-size: 24px !important;
+}
+.cardsection {
+	color: #000000;
+	background-color: #344358;
+	height: 250px;
+	padding: 50px;
+}
+.card-header h1 {
+	font-size: 20px;
+	text-align: center;
+}
+.card-block p {
+	font-weight: normal;
+	text-align: center;
+}.companysection {
+	background-color: #000000;
+	height: 50px;
+}

@@ -13,6 +13,8 @@
 <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
+	<!-- Navigation Bar --
+	======================================================================================= -->
 	<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
 	  	<div class="container">
 		  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
@@ -44,10 +46,12 @@
 		  </div>
 		</div>
 	</nav>
-<!-- Title Bar --
+<!-- Title Section --
 ======================================================================================= -->
-	<div class="container">
+	<div class="titlesection">
 		<h1><center>Dotslash Designs LLC</center></h1>
+	</div>
+	<div class="subtitlesection">
 		<p><center>Web Design. Social Marketing. Consulting.</center></p>
 	</div>
 <!-- Carousel
@@ -102,6 +106,80 @@
  			</a>
 		</div>
 	</div>
-	<div class="container">&copy Copyright 2017 Dotslash Designs LLC.</div>
+	<!-- Hero --
+======================================================================================= -->
+	<div class="hero">
+		<div class="col-sm-12 col-md-6 col-lg-3">
+			<h1><center>Dream big.</center></h1>
+		</div>
+		<div class="col-sm-12 col-md-6 col-lg-3">
+			<h1><center>Start small.</center></h1>
+		</div>
+		<div class="col-sm-12 col-md-6 col-lg-3">
+			<h1><center>Enjoy the experience.</center></h1>
+		</div>		
+		<div class="col-sm-12 col-md-6  col-lg-3">
+			<h1><center>Spread your wings.</center></h1>
+		</div>	
+	</div>
+	<!-- Cards --
+======================================================================================= -->
+	<div class="cardsection">
+		<div class="container">
+			<div class="col-sm-12 col-md-4 col-lg-4">
+				<div class="card">
+					<div class="card-block">
+						<div class="card-header">
+							<h1>Web Design</h1>
+						</div>
+						<div class="card-block">
+							<p>Dotslash Designs LLC will build and maintain your website.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-4 col-lg-4">
+				<div class="card">
+					<div class="card-block">
+						<div class="card-header">
+							<h1>Social Marketing</h1>
+						</div>
+						<div class="card-block">
+							<p>Dotslash Designs LLC will launch and maintain your social media campaign.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-4 col-lg-4">
+				<div class="card">
+					<div class="card-block">
+						<div class="card-header">
+							<h1>Consulting</h1>
+						</div>
+						<div class="card-block">
+							<p>Dotslash Designs LLC will provide Systems, Database, and Network services.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<!-- Company Info --
+======================================================================================= -->
+	<div class="companysection">
+		<div class="col-sm-12 col-md-6 col-lg-3">
+			<p><center>Dotslash Designs LLC</center></p>
+		</div>
+		<div class="col-sm-12 col-md-6 col-lg-3">
+			<p><center>30 S. Pearl St. #104, Denver, CO 80209</center></p>		</div>
+		<div class="col-sm-12 col-md-6 col-lg-3">
+			<p><center>contact@doslashdesigns.com</center></p>
+		</div>		
+		<div class="col-sm-12 col-md-6  col-lg-3">
+			<p><center>(720) 999-5816</center></p>
+		</div>	
+	</div>
+	<div class="container"><center>&copy Copyright 2017 Dotslash Designs LLC.</center></div>
+	<?php echo date('Ymd');?>
 </body>
 </html>
