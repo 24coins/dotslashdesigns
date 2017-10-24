@@ -1,0 +1,14 @@
+@charset "utf-8";
+* {
+	font-size: 16pt;
+}
+.container-img {
+	height: 500px;
+	padding: 0 10px 0 10px;
+	width: auto;
+}
+.container-caption {
+	height: 500px;
+	padding: 0 10px 0 10px;
+	width: auto;
+}

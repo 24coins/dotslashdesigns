@@ -1,0 +1,13 @@
+@charset "utf-8";
+h1 {
+	font-size: 75pt;
+	line-height: 2; 
+}
+h2 {
+	font-size: 50pt;
+	line-height: 1.5;
+}
+h3 {
+	font-size: 35pt;
+	line-height: 1;
+}

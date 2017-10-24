@@ -1,0 +1,62 @@
+Theme : Forcefull Lite (wordpress.org release)
+Version : 2.0.0
+Author : Kopatheme - http://kopatheme.com
+
+Oct 12 2015 - 2.0.0
+- rewrite theme use Kopa Framework.
+
+Feb 25 2014 - 1.0.12
+- updated: kopa weather widget not conflict with plugin forcefull toolkit anymore
+
+October 22 2014 - 1.0.11
+- updated: enqueue ie script by wp_enqueue_
+- updated: removed http protocol
+- updated: removed jquery ui js
+- updated: removed version checking 
+- updated: removed social share link
+- updated: removed kopa_get_client_IP() function
+- updated: all images in screenshot are under CC0 license
+- updated: print page title by wp_title()
+- updated: new version of class-tgm-plugin-activation.php
+
+October 13 2014 - 1.0.10
+- updated: widgets.php: added Kopa Weather Widget
+
+September 3 2014 - 1.0.9
+- fixed: problem when click on comments link
+
+August 4 2014 - 1.0.8
+- fix: category/tag page limit excerpt
+- Updated: default title for posts without title
+- Updated: focus on comment form when click reply button
+- updated: comments.php
+- updated: headline slider with long title
+
+May 17 2014 - 1.0.7
+- Updated: add copyright/license for js file
+- Updated version number
+
+May 16 2014 - 1.0.6
+- Updated: add recommend plugin
+- Updated version number
+
+May 15 2014 - 1.0.5
+- Removed: tgma active plugin
+- Updated version number
+
+May 14 2014 - 1.0.4
+- Updated: add alt to all images
+- Updated: add recommend plugin
+- Removed: unused files
+- Updated version number
+
+May 13 2014 - 1.0.3
+- Removed post rating
+- Removed Kopa Weather Widget
+- Updated: replaced home_url() by esc_url(home_url( '/' ))
+- Updated: removed icons when comments are switched off
+- Updated: removed KOPA_UPDATE_URL
+- Updated: add theme text domain to style.css
+- Updated version number
+
+

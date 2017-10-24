@@ -1,0 +1,127 @@
+@charset "utf-8";
+@import 'https://fonts.googleapis.com/css?family=Eczar';
+@keyframes pageTransition{
+	from {
+		background-color: white;
+		color: black;
+	}
+	to {
+		background-color: black;
+		color: white;
+	}
+}
+@keyframes textBlackToWhite {
+	from {
+		color: black;
+	}
+	to {
+		color: white;
+	}
+}
+@keyframes textRedToWhite {
+	from {
+		color: red;
+	}
+	to {
+		color: white;
+	}
+}
+@keyframes textWhiteToRed {
+	from {
+		color: white;
+	}
+	to {
+		color: red;
+	}
+}
+@keyframes textWhiteToWhite {
+	from {
+		color: white;
+	}
+	to {
+		color: white;
+	}
+}
+.centerText {
+	text-align: center;
+}
+
+.hiddenVisibility {
+	visibility: hidden;
+}
+.rightText {
+	text-align: right;
+}
+.margins10 {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.textFrame0 {
+	animation: normal;
+	animation-delay: 0s;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	font-family: 'Eczar', serif;
+}
+.textFrame1 {
+	animation: ease-in;
+	animation-delay: 3s;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	animation-name: textBlackToWhite;
+	font-family: 'Eczar', serif;
+}
+.textFrame2 {
+	animation: ease-in;
+	animation-delay: 6s;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	animation-name: textWhiteToWhite;
+	font-family: 'Eczar', serif;
+}
+.textFrame3 {
+	animation:ease-in;
+	animation-delay: 9s;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	animation-name: textBlackToWhite;
+	font-family: 'Eczar', serif;
+}
+.textFrame4 {
+	animation:ease-in;
+	animation-delay: 12s;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	animation-name: textBlackToWhite;
+	font-family: 'Eczar', serif;
+}
+.pageDefaults {
+	animation: ease-in;
+	animation-delay:0s;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	animation-name: pageTransition;
+}
+a {
+	animation:ease-in;
+	animation-delay: 0s;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	animation-name: textBlackToWhite;
+	font-family: 'Eczar', serif;
+	text-decoration: none;
+}
+div.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+table {
+	border-spacing: 5px;
+}
+th {
+	padding: 5px;
+}
+table.center {
+	margin-left: auto;
+	margin-right: auto;
+}
